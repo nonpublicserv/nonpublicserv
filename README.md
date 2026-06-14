@@ -97,8 +97,11 @@ python-nator-escape_room/
 │
 ├── build/                 # PyInstaller build files (temporary)
 │
-├── dist/
-│   └── main.exe           # Final compiled executable (PyInstaller output)
+├── dist/linux
+│   └── PythonNatorEscapeRoomWindows  # Final compiled executable (PyInstaller output)
+│
+├── dist/windows
+│   └── PythonNatorEscapeRoomWindows.exe  # Final compiled executable (PyInstaller output)
 │
 ├── core/                  # Core game engine (main logic systems)
 │   ├── assets_loader.py   # Loads and manages all game assets
